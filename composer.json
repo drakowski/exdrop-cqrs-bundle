@@ -1,0 +1,20 @@
+{
+    "name": "dev.exdrop/common-code-module-bundle",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevExdrop\\CommonCodeModuleBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damian Rakowski"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/messenger": "^7.2",
+        "symfony/framework-bundle": "7.2.*"
+    }
+}
