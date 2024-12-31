@@ -11,3 +11,9 @@ services:
     App\MessageHandler\QueryHandlerInterface:
       tags:
         - { name: messenger.message_handler, bus: query.bus }
+
+    # while those implementing EventHandlerInterface will be
+    # registered on the event.bus bus
+    App\MessageHandler\EventHandlerInterface:
+      tags:
+        - { name: messenger.message_handler, bus: event.bus }
