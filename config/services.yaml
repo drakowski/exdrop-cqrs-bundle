@@ -22,11 +22,11 @@ services:
       tags:
         - { name: messenger.message_handler, bus: event.bus }
 
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandBus: ~
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandBus: ~
 
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryBus: ~
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryBus: ~
 
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventBus: ~
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventBus: ~
 
 
 
