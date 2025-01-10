@@ -2,7 +2,7 @@
 
 namespace ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS;
 
-interface QueryHanderInterface
+interface EventHandlerInterface
 {
 
 }
