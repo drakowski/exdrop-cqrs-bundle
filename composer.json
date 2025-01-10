@@ -1,10 +1,10 @@
 {
-    "name": "dev.exdrop/common-code-module-bundle",
+    "name": "exdrop-common/shared-code-bundle",
     "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "DevExdrop\\CommonCodeModuleBundle\\": "src/"
+            "ExdropCommon\\": "src/"
         }
     },
     "authors": [

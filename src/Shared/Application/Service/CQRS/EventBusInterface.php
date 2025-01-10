@@ -1,6 +1,6 @@
 <?php
 
-namespace DevExdrop\CommonCodeModuleBundle\Shared\Application\Service\CQRS;
+namespace ExdropCommon\Shared\Application\Service\CQRS;
 
 use DevExdrop\CommonCodeModuleBundle\Shared\Domain\IntegratedEvent\EventInterface;
 

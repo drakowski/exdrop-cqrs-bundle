@@ -1,6 +1,6 @@
 <?php
 
-namespace DevExdrop\CommonCodeModuleBundle\Shared\Application\Service\CQRS;
+namespace ExdropCommon\Shared\Application\Service\CQRS;
 
 use Symfony\Component\Messenger\HandleTrait;
 use Symfony\Component\Messenger\MessageBusInterface;

@@ -1,4 +1,8 @@
 services:
+  _defaults:
+    autowire: true      # Automatically injects dependencies in your services.
+    autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
   _instanceof:
     # all services implementing the CommandHandlerInterface
     # will be registered on the command.bus bus
@@ -17,3 +21,12 @@ services:
     App\MessageHandler\EventHandlerInterface:
       tags:
         - { name: messenger.message_handler, bus: event.bus }
+
+    ExdropCommon\Shared\Application\Service\CQRS\CommandBus: ~
+
+    ExdropCommon\Shared\Application\Service\CQRS\QueryBus: ~
+
+    ExdropCommon\Shared\Application\Service\CQRS\EventBus: ~
+
+
+
