@@ -1,6 +1,6 @@
 <?php
 
-namespace ExdropCommon\Multitenance\Domain\IntegratedEvent;
+namespace ExdropCommon\SharedCodeBundle\Multitenance\Domain\IntegratedEvent;
 
 class RegisteredTenant
 {

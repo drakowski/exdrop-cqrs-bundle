@@ -1,8 +1,8 @@
 <?php
 
-namespace ExdropCommon\Shared\Application\Service\CQRS;
+namespace ExdropCommon\SharedCodeBundle\Application\Service\CQRS;
 
-use DevExdrop\CommonCodeModuleBundle\Shared\Domain\IntegratedEvent\EventInterface;
+use ExdropCommon\SharedCodeBundle\Shared\Domain\IntegratedEvent\EventInterface;
 
 interface EventBusInterface
 {

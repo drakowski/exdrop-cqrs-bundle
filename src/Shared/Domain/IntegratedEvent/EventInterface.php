@@ -1,6 +1,6 @@
 <?php
 
-namespace ExdropCommon\Shared\Domain\IntegratedEvent;
+namespace ExdropCommon\SharedCodeBundle\Shared\Domain\IntegratedEvent;
 
 interface EventInterface
 {

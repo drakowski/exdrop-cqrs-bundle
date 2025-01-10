@@ -1,8 +1,8 @@
 <?php
 
-namespace ExdropCommon\Multitenance\Application;
+namespace ExdropCommon\SharedCodeBundle\Multitenance\Application;
 
-use ExdropCommon\Shared\Application\Service\CQRS\CommandInterface;
+use ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandInterface;
 
 class RegisterNewTenant implements CommandInterface
 {

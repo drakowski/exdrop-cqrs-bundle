@@ -1,6 +1,6 @@
 <?php
 
-namespace ExdropCommon\Shared\Application\Service\CQRS;
+namespace ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS;
 
 use Symfony\Component\Messenger\Exception\ExceptionInterface;
 use Symfony\Component\Messenger\MessageBusInterface;
