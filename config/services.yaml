@@ -28,5 +28,9 @@ services:
 
   ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventBus: ~
 
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandBusInterface: '@ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandBus'
 
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryBusInterface: '@ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryBus'
+
+  ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventBusInterface: '@ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventBus'
 
