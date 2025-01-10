@@ -10,9 +10,10 @@ class QueryBus implements QueryBusInterface
     use HandleTrait;
 
     public function __construct(
-        private readonly MessageBusInterface $messageBus
+        MessageBusInterface $messageBus
     )
     {
+        $this->messageBus = $messageBus;
     }
 
     public function ask(QueryInterface $message): mixed
