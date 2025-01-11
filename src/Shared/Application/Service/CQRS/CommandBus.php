@@ -7,7 +7,7 @@ use Symfony\Component\Messenger\MessageBusInterface;
 
 readonly class CommandBus implements CommandBusInterface
 {
-    public function __construct(private MessageBusInterface $messageBus)
+    public function __construct(private MessageBusInterface $commandBus)
     {
 
     }
@@ -17,6 +17,6 @@ readonly class CommandBus implements CommandBusInterface
      */
     public function dispatch(CommandInterface $command): void
     {
-        $this->messageBus->dispatch($command);
+        $this->commandBus->dispatch($command);
     }
 }

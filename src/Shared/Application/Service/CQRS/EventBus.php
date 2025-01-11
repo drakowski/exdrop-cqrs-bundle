@@ -8,7 +8,7 @@ use Symfony\Component\Messenger\MessageBusInterface;
 
 readonly class EventBus implements EventBusInterface
 {
-    public function __construct(private MessageBusInterface $messageBus)
+    public function __construct(private MessageBusInterface $eventBus)
     {
 
     }
@@ -18,6 +18,6 @@ readonly class EventBus implements EventBusInterface
      */
     public function dispatch(EventInterface $event): void
     {
-        $this->messageBus->dispatch($event);
+        $this->eventBus->dispatch($event);
     }
 }

@@ -3,25 +3,6 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
-  _instanceof:
-    # all services implementing the CommandHandlerInterface
-    # will be registered on the command.bus bus
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandHandlerInterface:
-      tags:
-        - { name: messenger.message_handler, bus: command.bus }
-
-    # while those implementing QueryHandlerInterface will be
-    # registered on the query.bus bus
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryHandlerInterface:
-      tags:
-        - { name: messenger.message_handler, bus: query.bus }
-
-    # while those implementing EventHandlerInterface will be
-    # registered on the event.bus bus
-    ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\EventHandlerInterface:
-      tags:
-        - { name: messenger.message_handler, bus: event.bus }
-
   ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\CommandBus: ~
 
   ExdropCommon\SharedCodeBundle\Shared\Application\Service\CQRS\QueryBus: ~
