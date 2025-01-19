@@ -1,10 +1,10 @@
 {
-    "name": "exdrop-common/shared-code-bundle",
+    "name": "exdrop-common/shared-cqrs-bundle",
     "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ExdropCommon\\SharedCodeBundle\\": "src/"
+            "ExdropCQRS\\": "src/"
         }
     },
     "authors": [

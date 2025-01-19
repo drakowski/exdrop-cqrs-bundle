@@ -1,8 +1,8 @@
 <?php
 
-namespace ExdropCommon\SharedCodeBundle\Shared\Domain\Traits;
+namespace ExdropCQRS\Domain\Traits;
 
-use ExdropCommon\SharedCodeBundle\Shared\Domain\IntegratedEvent\EventInterface;
+use ExdropCQRS\Domain\Event\EventInterface;
 
 trait AggregateAwareTrait
 {
@@ -11,5 +11,10 @@ trait AggregateAwareTrait
     public function pushEvent(EventInterface $event): void
     {
         $this->events[] = $event;
+    }
+
+    public function getEvents(): array
+    {
+        return $this->events;
     }
 }
