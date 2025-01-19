@@ -9,9 +9,9 @@ services:
 
   ExdropCQRS\Application\Service\EventBus: ~
 
-  ExdropCQRS\Application\Service\CommandBusInterface: '@ExdropCQRS\SharedCodeBundle\Application\Service\CommandBus'
+  ExdropCQRS\Application\Service\CommandBusInterface: '@ExdropCQRS\Application\Service\CommandBus'
 
-  ExdropCQRS\Application\Service\QueryBusInterface: '@ExdropCQRS\SharedCodeBundle\Application\Service\QueryBus'
+  ExdropCQRS\Application\Service\QueryBusInterface: '@ExdropCQRS\Application\Service\QueryBus'
 
-  ExdropCQRS\Application\Service\EventBusInterface: '@ExdropCQRS\SharedCodeBundle\Application\Service\EventBus'
+  ExdropCQRS\Application\Service\EventBusInterface: '@ExdropCQRS\Application\Service\EventBus'
 
