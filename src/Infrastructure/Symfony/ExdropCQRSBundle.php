@@ -1,5 +1,6 @@
 <?php
 
+namespace ExdropCQRS\Infrastructure\Symfony;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;

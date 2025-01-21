@@ -1,8 +1,8 @@
 <?php
 
-namespace ExdropCQRS\Domain\Traits;
+namespace ExdropCQRS\Domain\Entity;
 
-use ExdropCQRS\Domain\Event\EventInterface;
+use Domain\Event\EventInterface;
 
 interface AggregateAwareInterface
 {
