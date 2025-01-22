@@ -2,7 +2,7 @@
 
 namespace ExdropCQRS\Domain\Traits;
 
-use Domain\Event\EventInterface;
+use ExdropCQRS\Domain\Event\EventInterface;
 
 trait AggregateAwareTrait
 {

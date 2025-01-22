@@ -2,7 +2,8 @@
 
 namespace ExdropCQRS\Application\Service;
 
-use Domain\Event\EventInterface;
+
+use ExdropCQRS\Domain\Event\EventInterface;
 
 interface EventBusInterface
 {

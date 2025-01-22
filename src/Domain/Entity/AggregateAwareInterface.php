@@ -2,7 +2,7 @@
 
 namespace ExdropCQRS\Domain\Entity;
 
-use Domain\Event\EventInterface;
+use ExdropCQRS\Domain\Event\EventInterface;
 
 interface AggregateAwareInterface
 {

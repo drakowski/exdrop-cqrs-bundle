@@ -2,7 +2,7 @@
 
 namespace ExdropCQRS\Application\Service;
 
-use Domain\Event\EventInterface;
+use ExdropCQRS\Domain\Event\EventInterface;
 use Symfony\Component\Messenger\Exception\ExceptionInterface;
 use Symfony\Component\Messenger\MessageBusInterface;
 
